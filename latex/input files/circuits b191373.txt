@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{circuitikz}
+
+\title{Electrical Circuits}
+\author{\textbf{Vontela Sathwika {\\ B191373}}}
+\date{}
+
+\begin{document}
+\maketitle
+\begin{center}
+\begin{circuitikz}[american voltages]
+\draw
+ (0,0) to [\bipole{capacitor},o- ,l=$C_1$] (2,0)
+  to [R,*-, l_=$R_1$] (2,3)
+ to [short,-*] (4,3)
+ to [R,l_=$R_L$,i=$i_C$] (4,0.8)
+ to [short,*-o] (8,0.8)
+ (2,0) to [R,-*, l_=$R_2$] (2,-3)
+ to [short,-o] (0,-3)
+ (4,3) to [short,-o] (9,3)
+ (2,0) to [short,-|,i=$i_B$] (3.5,0)
+ (4,-0.5) to [short,i=$i_E$] (4,-1.5)
+  to [R,l_=$R_E$] (4,-3)
+  to [short,*-*] (2,-3)
+  (4,-1.5) to [short] (6,-1.5)
+  to [\bipole{capacitor},l_=$C_2$] (6,-3)
+  to [short,*-*] (4,-3)
+  (6,-3) to [short,-o] (8,-3)
+  to [short,-o] (9,-3)
+  (8,0.5) to [open, v^>=$V_{out}$] (8,-3)
+  (9,3) to [open, v^>=$V_{CC}$] (9,-3)
+(2.5,0) to [open, v^>=$V_B$] (2.5,-3)
+ (0,0) to [open, v^>=$V_0{sin({\omega}t)}$] (0,-3)
+ (6,-3) to node[ground]{} (6,-4)
+ (4.5,-1.5) to [open, v^>=$V_E$] (4.5,-3)
+ (4.5,0.8)to [open, v^>=$V_{CE}$] (4.5,-1)
+ (4,0.8) to [short,l_=$C$]  (4,0.5)
+ (4,-1.0) to [short,l=$E$] (4,-0.5)
+ (3.5,-0.3) to [short,l=$B$] (3.5,0.3)
+ (3.5,0.1)to [short] (4,0.5)
+ (3.5,-0.1)to [short,i=$ $] (4,-0.5)
+\end{circuitikz}
+\end{center}
+\end{document}

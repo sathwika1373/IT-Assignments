@@ -1,0 +1,49 @@
+\documentclass{knittingpattern}
+
+
+\definecolor{colour0}{HTML}{000000}
+\definecolor{colour1}{HTML}{EDB668}
+\definecolor{colour2}{HTML}{000000}
+\definecolor{colour3}{HTML}{d49fce}
+\definecolor{colour4}{HTML}{a377d1}
+\definecolor{colour5}{HTML}{70de6a}
+\definecolor{colour6}{HTML}{FFFF00}
+\definecolor{colour7}{HTML}{f2b530}
+\definecolor{colour8}{HTML}{70de6a}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage[document]{ragged2e}
+\begin{document}
+\title{\textbf {\Huge {KNITTING PATTERNS}}}
+\author{\Large Vontela Sathwika ,  
+   ID: B191373}
+\maketitle
+\section{KNITTING PATTERNS :}
+ \large This class provides a very convenient way to introduce boxed diagrams. We are thus going to use our stock images a few more times. Also,it has a few features to make knitting instructions more readable,however, we can adapt them to make pretteir documents for our purposes as well.
+  \begin{figure}[h]
+      \centering
+      \includegraphics[width=10cm]{knit.jpg}
+      
+  \end{figure}
+\note{colour0}{colour7}{}{ we have a of highlighting important text , or as was originally indented,important \\instructions.Feel free to choose whatever background and border colour you like when you replicate these features , but try to replicate dimensions as well as you can.}
+\begin{pattern}{colour4}{colour5}
+COURSE & CREDITS  \\
+Intriduction to computer programming & 6\\
+Abstractions and paradigms in programming & 6\\
+Abstractions and paradigms in programming lab & 3\\
+Data structures and algorithms & 6\\
+software system lab & 8
+\end{pattern}
+\note{colour2}{colour3}{NOTE}{This is a note.The feature was introduced to typeset a sequence of knitting instructions .This first coloumn is for the instruction,the second for the number of stitche.But they ,it looks cool !}
+\newpage
+
+  \begin{wrapfigure}{l}{0.5\textwidth} 
+    \centering
+    \includegraphics[width=0.4\textwidth]{knit.jpg}
+\end{wrapfigure}
+
+\Large 
+Look at the adjoining graph.Yes, you have seen it before. this time, it side by side with a paragraph! and there's a beautiful box around it! BY default, this will be quarter of the width of the page. If you follow the hint that is the title of this section. You wont have to type in cumbersome code to fit in images. Also have you noticed that the pages are much wider ? A lot of it will be clear when you read up on the knitting patterns class. It is already available with the MacTeX distributions, and of course, online on overleaf.
+
+
+\end{document}

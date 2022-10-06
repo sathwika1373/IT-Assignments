@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{chemfig}
+\usepackage{modiagram}
+\title{CHEMISTRY}
+\author{\textbf{Vontela Sathwika {\\ B191373}}}
+\date{August 2022}
+
+
+\begin{document}
+
+\maketitle
+
+\section{Chemical Formulae}
+\vspace{1cm}
+\chemfig{*6((-Cl)-=(*6(-N=-=(-HN-[0.7]*6((-[2])--(*6(--N*6((-[2]-[0.7]-[7.3]OH)--)))))-))-=-=)}
+
+\begin{center}
+\vspace{1cm}
+\textbf{HYDROXYCHLOROQUINE}
+\end{center}
+\vspace{1cm}
+\section{Molecular Orbital Diagrams}
+
+\begin{center}
+\begin{MOdiagram}
+ \atom{left}{
+     2p = {;up,up,up}
+  }
+  \atom{right}{
+     2p = {;pair,up,up}
+  }
+  \molecule{
+      2pMO = {;pair,pair,pair,up}
+  }
+\end{MOdiagram}
+\end{center}
+
+\begin{center}
+\vspace{1cm}
+\textbf{N \hspace{1cm} NO \hspace{1cm} O}
+\end{center}
+\end{document}

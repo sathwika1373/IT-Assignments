@@ -1,0 +1,83 @@
+\documentclass{exam}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{amssymb}
+\usepackage{tikz}
+\title{\textbf{\huge TYPESETTING EXAMS}}
+\author{\textbf{Vontela Sathwika {\\ B191373}}}
+\usetikzlibrary{shapes,arrows,positioning}
+\begin{document}
+\maketitle
+\huge Maths \hspace{4cm} Assignment \hspace{3.5cm} IITB \# 
+ \hrule 
+\vspace{1cm}
+  \textbf{\Large problem 1.}\Large{Show that there exists no non trivial unramified extension of \huge Q} \\
+ 
+ \textbf{solution : }
+     \Large{If K/Q is a non-trivial number field then $|disk \hspace{0.5cm} k|$ $>$. But then disk k has a prime factor so that so same prime ramifies in \huge k\\
+   \hspace{10.5cm}}
+     \\ \\
+     \textbf{Problem 2.}  complete the following :\\ \\
+     (a) \hspace{1cm} how does one prove a cot theorem ?\\ \\
+     (b) \hspace{1cm} compute $\int cosx dx$\\ \\ 
+     (c) \hspace{1cm} how does one square 
+     $
+\begin{pmatrix}
+      a & b \\
+      c & d 
+\end{pmatrix} $? \\ \\
+ \textbf{solutions : }\\ \\
+  (a) use rollaries\\ \\
+  (b) we have \\ \\
+  \begin{equation}
+   \hspace{7cm}
+   \int cosx dx =sinx +c  
+ \end{equation}
+\hspace{1cm} we can check (1) 
+  \hspace{2cm} $\frac{d}{dx} (sinx + c) = cosx$ \\ \\
+ (c) This is routin. \hspace{12.5cm}$\square $ \\ \\ \\
+\textbf{Problem 3.} Prove that $ \sqrt{2}$ is irrational. \\ \\
+ \textbf{Proof :} . Asuume that $\sqrt{2}$=$\frac{a}{b}$, Where a,b  $\epsilon $  Z . Without loss of generality , we may assume gcd $(a,b)$=1 . Then we have \\
+ 
+  \hspace{5cm}  $\sqrt{2}$=$\frac{a}{b}$ 
+  
+ \begin{equation}
+     \sqrt{2}^2=\binom{a}{b}^2
+ \end{equation}
+ 
+\hspace{6.5cm} 2= $\frac{a^2}{b^2}$
+ \begin{equation}
+   a^2=2b^2
+ \end{equation}
+ But then from $(3)$,we know that $a^2$ is even so that a is even . But then we must have .
+  \begin{center}
+       $2a^2=b^2$
+  \end{center}
+so that $b^2$ is even , implying b is even.But then         gcd$(a,b)\ge 2 $ , a contradicion . \hspace{12.5cm}$\square $
+ \\ \\ \\ \\
+ (b)
+ 
+    \includegraphics[width=7cm]{dia.jpg}
+
+\\ \\ 
+\Large \textbf{4.Solving Puzzles \# 1} IN clas  we did three puzzles, the first one which is equivalent to finiteautomata. In general , a puzzle of this type has a frame like (but possibly with more/fewer squares and different colors) :
+\begin{figure}[h]
+\centering
+ \includegraphics[width=10cm]{puzzle1.jpg}
+\end{figure} \\ 
+ and a finite set of tiles like this (but possibly with more/fewer tiles and different colors):
+ \begin{figure}[h]
+     \centering
+     \includegraphics[width=10cm]{puzzle2.jpg}
+ \end{figure}
+ The tiles must be arranged so that adjastment areas have matching colors.there is an unlimited number of copies of each tile \\ \\
+ (a) show how every puzzle of this type can be converted in to a  finite automation M and a string w that M accepts w if and only if the puzzle has a solution. \\ \\
+ (b) Apply your construction to the above instance.\\ \\
+ (c) Briefly describe how this gives an o(n) algorithm for solving puzzles of this type
+\end{document}
+ 
+ 
+ 
+ 
+\end{document}
