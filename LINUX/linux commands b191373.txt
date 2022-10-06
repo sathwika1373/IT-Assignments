@@ -1,0 +1,96 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\title{linuxcommands}
+\author{Vontela Sathwika }
+\date{September 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+1. What is the command used to sort a file ? \\ \\
+ANS : sort [OPTION]... [FILE]...
+\begin{center}
+\includegraphics{sortcmd}
+\end{center}
+2. How will you find which operating system your system is running on in UNIX ?
+ANS : \\ \\
+3. Which character you will append to a command to run the process in background ? \\ \\
+ANS : ampersand character (\&) 
+\\ \\
+4. How do you see command line history in UNIX ? \\ \\
+ANS : By using command called history. \\ \\
+5. How do you find which process is taking how much CPU ? \\ \\
+ANS : By using command called top.
+\begin{center}
+\includegraphics{topcmd}
+\end{center}
+6. How do you check how much space left in current drive ? \\ \\
+ANS :command  df [OPTION]... [FILE]...
+\\ \\
+7. Which command is used to count the number of characters in a file ? \\ \\ 
+ANS :command  wc -m [FILE]... \\ \\ 
+8. Which command is used to determine the size of directory in unix ?\\ \\ 
+ANS :command  du -h --max-depth=0 [FILE]...  \\ \\ 
+9. Which switch is used for displaying the result of a command in human readable format ? \\ \\ 
+ANS : -h \\ \\ 
+10. Which command is used to list all the running processes ?
+\\ \\
+ANS : ps -A or ps -aux\\ \\ 
+11. Which command is used to show real time view of the running processes ?
+ANS : ps -A or ps -aux \\ \\
+12. Which of the commands is used to compress a file ?
+\\ \\
+ANS : gzip [file]... or bzip2 [file]...\\ \\
+13. Which command is used to delete a empty, hierarchy directory, directory which contains some files ? \\ \\
+ANS : rm [options] [file or directory name]\\ \\
+\hspace*{1cm}empty directory : rm -d [file or directory name] or rmdir [directory name] \\ \\
+\hspace*{1cm}non empty directory : rm -r [file or directory name]
+\\ \\
+14. Which command is used to create a directory, hierarchy of directory ? \\ \\
+ANS : mkdir \\ \\
+15. Which command is used to know IP address of your system? \\ \\
+ANS : ipconfig /all \\ \\
+16. Which command will not accept file name as input? \\ \\
+ANS : malix \\ \\
+17. Which command is used to rename a file? \\ \\ 
+ANS : mv [oldfile] [newfile] \\ \\
+18. The purpose of the command "type"? \\ \\
+ANS : "The standard output of the type command contains information about the specified command
+and identifies whether this is a shell built-in command,subroutine,alias,or keyword.The type
+command indicates how the specified command would be interpreted if used." \\ \\
+19. Write command with related option to know the kernel file? \\ \\
+ANS : uname -r \\ \\
+20)Which file contains the root password?\\ \\
+ANS : /etc/passwd file \\ \\
+21.2233|a.k. shukla|g.m.|sales|12/12/52|6000\\ \\
+9876|jai sharma|director|production|03/12/50|7000\\ \\
+5678|sumit chakrobarty|d.g.m|marketing|04/19/43|6000\\ \\\\ \\
+2365|barun sengupta|director|personnel|05/11/47|7800\\ \\
+5423|n.k. gupta|chairman|admin|08/30/56|5400\\ \\
+1006|chanchal sanghvi|director|sales|09/03/38|6700\\ \\
+6213|karuna ganguly|g.m.|accounts|06/05/62|6300\\ \\
+1265|s.n. dasgupta|manager|sales|09/12/63|5600\\ \\
+4290|jayant Chodhury|executive|production|09/07/50|6000\\ \\
+2476|anil aggarwal|manager|sales|05/01/59|5000\\ \\
+6521|lalit chowdury|director|marketing|09/26/45|8200\\ \\
+3212|shyam saksena|d.g.m|accounts|12/12/55|6000\\ \\
+3564|sudhir Agarwal|executive|personnel|07/06/47|8000\\ \\
+2345|j.b. saxena|g.m.|marketing|03/12/45|8000\\ \\
+0110|v.k. agrawal |g.m.|marketing|12/31/40|9000\\ \\
+i.Write a command to display the fields:
+Name,Department,Salary? \\ \\
+ans:-text{awk '{print \$2,$4,$6} emp.1s}
+ii.\\\\
+
+\includegraphics{cutcmd}
+
+iii. \\ \\
+
+\includegraphics{sort2cmd}
+4. Write a command to sort text based on fifth field (DOB)\\ \\
+ANS : ort -k 6 emp.1st
+\end{document}
